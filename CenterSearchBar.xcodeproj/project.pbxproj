@@ -13,6 +13,8 @@
 		0304381B2109B5B900A5C5FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0304381A2109B5B900A5C5FE /* Assets.xcassets */; };
 		0304381E2109B5B900A5C5FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0304381C2109B5B900A5C5FE /* LaunchScreen.storyboard */; };
 		030438212109B5B900A5C5FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 030438202109B5B900A5C5FE /* main.m */; };
+		0304382A2109B5C600A5C5FE /* SSSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 030438282109B5C600A5C5FE /* SSSearchBar.m */; };
+		0304382C2109B6A800A5C5FE /* demoGif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0304382B2109B6A800A5C5FE /* demoGif.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		0304381D2109B5B900A5C5FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0304381F2109B5B900A5C5FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		030438202109B5B900A5C5FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		030438282109B5C600A5C5FE /* SSSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSSearchBar.m; sourceTree = "<group>"; };
+		030438292109B5C600A5C5FE /* SSSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSSearchBar.h; sourceTree = "<group>"; };
+		0304382B2109B6A800A5C5FE /* demoGif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demoGif.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,7 @@
 		030438102109B5B900A5C5FE /* CenterSearchBar */ = {
 			isa = PBXGroup;
 			children = (
+				030438272109B5C600A5C5FE /* CenterSearchBar */,
 				030438112109B5B900A5C5FE /* AppDelegate.h */,
 				030438122109B5B900A5C5FE /* AppDelegate.m */,
 				030438142109B5B900A5C5FE /* ViewController.h */,
@@ -65,8 +71,18 @@
 				030438172109B5B900A5C5FE /* Main.storyboard */,
 				0304381A2109B5B900A5C5FE /* Assets.xcassets */,
 				0304381C2109B5B900A5C5FE /* LaunchScreen.storyboard */,
+				0304382B2109B6A800A5C5FE /* demoGif.gif */,
 				0304381F2109B5B900A5C5FE /* Info.plist */,
 				030438202109B5B900A5C5FE /* main.m */,
+			);
+			path = CenterSearchBar;
+			sourceTree = "<group>";
+		};
+		030438272109B5C600A5C5FE /* CenterSearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				030438292109B5C600A5C5FE /* SSSearchBar.h */,
+				030438282109B5C600A5C5FE /* SSSearchBar.m */,
 			);
 			path = CenterSearchBar;
 			sourceTree = "<group>";
@@ -131,6 +147,7 @@
 			files = (
 				0304381E2109B5B900A5C5FE /* LaunchScreen.storyboard in Resources */,
 				0304381B2109B5B900A5C5FE /* Assets.xcassets in Resources */,
+				0304382C2109B6A800A5C5FE /* demoGif.gif in Resources */,
 				030438192109B5B900A5C5FE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				030438162109B5B900A5C5FE /* ViewController.m in Sources */,
+				0304382A2109B5C600A5C5FE /* SSSearchBar.m in Sources */,
 				030438212109B5B900A5C5FE /* main.m in Sources */,
 				030438132109B5B900A5C5FE /* AppDelegate.m in Sources */,
 			);
